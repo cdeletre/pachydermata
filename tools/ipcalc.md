@@ -1,5 +1,6 @@
 # ipcalc
-https://github.com/nmav/ipcalc
+## Links
+* **github:** https://github.com/nmav/ipcalc
 
 ## Installation
 ### MacOS
