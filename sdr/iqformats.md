@@ -20,7 +20,9 @@ An I/Q sample is a numerical value that can be store in various format. Here is 
 
 ### IQ format conversion
 
-SoX (Sound eXchange) tool can be used to convert IQ record files.
+SoX (Sound eXchange) tool can be used to convert IQ record files:
+
+	sox -t <raw|wav> -c2 -r<rate> -e<unsigned-integer|signed-integer|float> -b<8|16|32> input.iq -t <raw|wav> -e<unsigned-integer|signed-integer|float> -b<8|16|32> output.iq
 
 All the examples given here use an input IQ recorded file that has a **2M** sampling rate (2 Msps).
 
